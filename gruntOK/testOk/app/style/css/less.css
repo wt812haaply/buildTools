@@ -1,0 +1,23 @@
+/*@import "quanju.less";*/
+/* @import "common.less"; */
+/*@import (less) "../css/video.css";*/
+/* @import (less) "aa.css"; /* 引用外部CSS  */
+/*@import (inline) "../css/yes.css"; 引用外部CSS */
+/* less.less */
+body {
+  background: url("../images/1.jpg") no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .con {
+  content: "con";
+}
+body .two {
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  width: 5.333333rem;
+}

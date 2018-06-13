@@ -1,2 +1,2 @@
-npm install  or cnpm install  
+npm install ===>  (推荐)  or cnpm install 
 

@@ -1,0 +1,15 @@
+/* c1 */
+.c1{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.c1 .c2{
+		content: "c2"
+	}
+.c1 .c3{
+		font-size: 0.64rem;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
