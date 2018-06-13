@@ -1,1 +1,2 @@
-# buildTools
+npm install  or cnpm install  
+
