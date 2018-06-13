@@ -1,0 +1,36 @@
+body {
+  background: #000022;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px; }
+
+body {
+  color: #fff;
+  width: 1000px;
+  /*no*/
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px; }
+
+/*
+* @Author: t
+* @Date:   2018-04-08 10:33:26
+* @Last Modified by:   t
+* @Last Modified time: 2018-06-13 13:58:23
+*/
+body {
+  font-size: 1.066667rem;
+  line-height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+body {
+  background: #00f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

@@ -1,0 +1,8 @@
+$w:100px;
+body {
+    width: $w;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    height: $w;
+}
