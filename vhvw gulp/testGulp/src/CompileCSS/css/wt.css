@@ -1,0 +1,43 @@
+body {
+  background: #000022;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  /*no*/ }
+
+body {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #eee;
+  background: pink;
+  font-size: 3.2vw;
+  width: 100%;
+}
+.testVhVw {
+  line-height: 1.5;
+  font-size: 3.2vw;
+  background: blue;
+  width: 40vw;
+  height: 40vw;
+}
+
+/*
+* @Author: t
+* @Date:   2018-04-08 10:33:26
+* @Last Modified by:   t
+* @Last Modified time: 2018-06-13 13:58:23
+*/
+body {
+  font-size: 20px;
+  line-height: 100px;
+  /*no*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+body {
+  display: flex;
+}

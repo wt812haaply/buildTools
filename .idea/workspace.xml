@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f12960ea-8375-4ce0-9fbd-34d9b5659e7d" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/buildTools.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulp/必看.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/package-lock.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/dist/css/wt.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/CompileCSS/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/CompileCSS/css/wt.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/CompileCSS/less.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/CompileCSS/sass.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/CompileCSS/stylus.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/js/1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/js/2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/style/css/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/style/less/less.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/style/sass/sass.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/testGulp/src/style/stylus/stylus.styl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vhvw gulp/“必看”.rtf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,6 +30,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>srcPath</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -82,12 +103,16 @@
               <item name="buildTools" type="b2602c69:ProjectViewProjectNode" />
               <item name="buildTools" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="buildTools" type="b2602c69:ProjectViewProjectNode" />
+              <item name="buildTools" type="462c0819:PsiDirectoryNode" />
+              <item name="gruntOK" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -95,6 +120,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -118,12 +153,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543568751129</updated>
-      <workItem from="1543568753911" duration="130000" />
+      <workItem from="1543568753911" duration="371000" />
+      <workItem from="1543802836000" duration="3365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130000" />
+    <option name="totallyTimeSpent" value="3736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="23" width="1248" height="777" extended-state="0" />
@@ -133,7 +169,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38088012" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.292868" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -155,5 +191,39 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gulp/必看.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="true" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruntOK/testOk/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/testGulp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/testGulp/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="194" column="24" lean-forward="false" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
