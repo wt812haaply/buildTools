@@ -25,14 +25,27 @@ var srcPath = {
     CompileCSS  :  'src/CompileCSS',
     images      :  'src/images',
     js          :  'src/js',
-
-};
+    };
+    
 var destPath = {
     html        : '',
     css         : 'dist/css',
     script      : 'dist/js',
     images      : 'dist/images',
-};
+    };
+
+// px => vw vh
+var processors = [
+        pxtoviewport({
+            viewportWidth: 375,
+            // viewportHeight: 1334,
+            unitPrecision: 5,
+            viewportUnit: 'vw',
+            selectorBlackList: [],
+            minPixelValue: 1,
+            mediaQuery: false
+        })
+    ];
 
 // 注册任务自启浏览器服务
 gulp.task('webserver', function() {
@@ -75,17 +88,6 @@ gulp.task('autoprefixer', function() {
 gulp.task('less', function() {
     // var processors = [px2rem({remUnit: 18.75})];
     // gulp.src(['src/style/less/less.less','src/style/less/less2.less'])//多个文件以数组形式传入
-    var processors = [
-        pxtoviewport({
-            viewportWidth: 375,
-            // viewportHeight: 1334,
-            unitPrecision: 5,
-            viewportUnit: 'vw',
-            selectorBlackList: [],
-            minPixelValue: 1,
-            mediaQuery: false
-        })
-    ];
     return gulp.src( srcPath.less + '/*.less') //所有文件
         .pipe(autoprefixer({
             browsers: ['last 2 versions', 'Android >= 4.0'],
@@ -111,7 +113,7 @@ gulp.task('sass', function() {
             remove: true //是否去掉不必要的前缀 默认：true 
         }))
         .pipe(sass())
-        // .pipe(postcss(processors))
+        .pipe(postcss(processors))
         .pipe(gulp.dest(srcPath.CompileCSS + '/')); //编译后路径
 })
 
@@ -127,7 +129,7 @@ gulp.task('stylus', function() {
             remove: true //是否去掉不必要的前缀 默认：true 
         }))
         .pipe(stylus())
-        // .pipe(postcss(processors))
+        .pipe(postcss(processors))
         .pipe(gulp.dest(srcPath.CompileCSS + '/')); //编译后路径
 });
 
@@ -149,31 +151,6 @@ gulp.task('postcss', function() {
         .pipe(stylus())
         .pipe(gulp.dest(srcPath.CompileCSS + '/')); //编译后路径
 });
-
-//postcsspx-vw
-// 2.处理css
-// gulp.task('css', function () {
-//     var processors = [
-//         pxtoviewport({
-//             viewportWidth: 750,
-//             viewportHeight: 1334,
-//             unitPrecision: 5,
-//             viewportUnit: 'vw',
-//             selectorBlackList: [],
-//             minPixelValue: 1,
-//             mediaQuery: false
-//         })
-//     ];
-//     return gulp.src([ srcPath.css + '/*.css',srcPath.less + '/*.less', srcPath.sass + '/*.scss',])
-//         //gulp.src('css/*.css') 指定css文件夹下的所有后缀为.css的文件
-//         .pipe(postcss([ autoprefixer() ]))  //自动加上浏览器前缀
-//         .pipe(postcss(processors))
-//         //.pipe(minify()) //使用minify模块进行css 压缩
-//         //.pipe(gulp.dest('build/css'))  最终将压缩的文件输出到minicss文件下     
-//         .pipe(gulp.dest(srcPath.CompileCSS + '/')); //编译后路径       
-// })
-
-
 
 //图片压缩
 gulp.task('imagemin', function() {

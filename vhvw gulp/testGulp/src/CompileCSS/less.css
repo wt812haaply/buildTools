@@ -1,3 +1,6 @@
+/*  px => rem
+@unit: 1/18.75rem;
+*/
 body {
   color: #fff;
   display: -webkit-box;
@@ -8,10 +11,9 @@ body {
   font-size: 3.2vw;
   width: 100%;
 }
-.testVhVw {
+.less {
   line-height: 1.5;
-  font-size: 3.2vw;
-  background: blue;
-  width: 40vw;
-  height: 40vw;
+  width: 29.33333vw;
+  height: 29.33333vw;
+  background: red;
 }

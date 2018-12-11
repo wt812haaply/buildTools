@@ -1,3 +1,9 @@
 body {
   display: flex;
 }
+.styl {
+  width: 34.66667vw;
+  height: 42.66667vw;
+  background: #222;
+  content: 'styl';
+}
