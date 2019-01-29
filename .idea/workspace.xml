@@ -39,9 +39,9 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/webpack/testWebPack/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="28" />
-    <option name="y" value="35" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="32" />
+    <option name="y" value="23" />
     <option name="width" value="1248" />
     <option name="height" value="777" />
   </component>
@@ -196,6 +196,7 @@
       <workItem from="1543802836000" duration="4132000" />
       <workItem from="1544092451221" duration="300000" />
       <workItem from="1544522523961" duration="3000" />
+      <workItem from="1548749554916" duration="20000" />
     </task>
     <task id="LOCAL-00001" summary="gulp pxtovwvh">
       <created>1543890947422</created>
@@ -208,7 +209,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4806000" />
+    <option name="totallyTimeSpent" value="4826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="32" y="23" width="1248" height="777" extended-state="6" />
